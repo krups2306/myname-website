@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+:root{
+    --primary-color: red;
+    --light-gray: #E5E7EB;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0rem;
+}
+
+.hr{
+    margin: 2rem 0rem;
+}
+
+.Skills {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Hobbies  {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.container .container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+.Link {
+    box-sizing: border-box;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-decoration: none;
+    color: white;
+    margin-top: 5rem;
+}
+
+.primarylink {
+    background-color: #FCD34D;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+
+.secondarylink {
+    background-color: #FCD34D;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.List-non-bullet{
+    list-style: none;
+}
+
+.Listitem {
+    display: inline;
+    padding: 1rem 2rem 3rem;
+}
+
+
+/**navigation**/
+
+.Navigation {
+    background-color: #FCD34D;
+    padding: 1rem;  
+    border-bottom-left-radius: 1rem; 
+}
+
+.Navigation .container{
+    padding: 0rem 1rem;
+}
+
+.Navigation .Nav-brand {
+    font-weight: bold;
+}
+
+.Navigation .Nav-pills{
+    text-align: right;
+}
+
+.Navigation .Link{
+    color:white;
+}
+
+.Navigation .Link-active{
+    font-weight: bold;
+}
+
+
+/**header**/
+
+.grocery{
+    padding: 2rem;
+    text-align: center;
+}
+
+.grocery .grocery-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.grocery .grocery-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color: #FCD34D;
+    font-size: x-large;
+}
+
+.grocery .grocery-heading .Heading-inverted{
+    color:black ;
+} 
+
+.section h2 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow {
+    background-color: var(--light-gray);
+}
+
+/** footer **/
+
+.Footer {
+    background-color: #FCD34D;
+    padding: 2rem 0rem;
+    text-align: center;
+    color:white ;
+    border-top-right-radius: 1rem;
+}
+
+.Footer.Footer-header{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.Social-links{
+    color: white;
+}
+
