@@ -141,7 +141,7 @@ body{
     color: #FCD34D ;
 } 
 
-.section h2 {
+.section h2,p {
     text-align: center;
     padding: 2rem;
     
